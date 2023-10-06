@@ -41,6 +41,24 @@ Ensure you have Python 3.7.1 or newer installed on your system.
 
     Ensure your system's microphone and audio output are properly configured and working as expected to fully experience the voice interaction capabilities of TalkGPT.
 
+## AudioSettings.py
+
+`AudioSettings.py` is a utility script included in the TalkGPT project to facilitate the retrieval and viewing of voice settings associated with a specific Voice ID from ElevenLabs. The script sends a request to ElevenLabs' API, fetching and displaying the settings of the voice specified by the Voice ID. These settings include various parameters and configurations related to the voice, such as its tone, pitch, speed, and other properties, providing insight into its characteristics and behavior.
+
+### Usage
+
+1. Replace `{Your_Voice_ID}` and `{Your_ElevenLabs_Key}` in the script with your actual ElevenLabs Voice ID and API Key respectively.
+   
+2. Run the script in your terminal or command prompt:
+
+    ```bash
+    python AudioSettings.py
+    ```
+
+3. The script will output the settings of the specified voice, providing details that can be useful for understanding and potentially troubleshooting voice-related issues.
+
+
+**Note:** Ensure you have the necessary permissions and correct API keys to access and retrieve voice settings from ElevenLabs. Misconfiguration or unauthorized access attempts might result in errors or access denial.
 
 
 
