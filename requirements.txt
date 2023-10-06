@@ -1,0 +1,7 @@
+SpeechRecognition
+openai
+requests
+pydub
+pyaudio
+SpeechRecognition
+streamlit
