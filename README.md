@@ -14,7 +14,7 @@ Ensure you have Python 3.7.1 or newer installed on your system.
 
 1. Clone the repository to your local machine:
     ```shell
-    git clone {Your_Repository_Link}
+    git clone https://github.com/hasanalmunshi/TalkGPT
     ```
 2. Navigate to the project directory and install the required packages:
     ```shell
